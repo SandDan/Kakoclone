@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats-Kokoa Clone</title>
+    <title>More-Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -26,30 +26,59 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
+            <div class="find__cog-notification"></div>
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
-                <img src="./Snapshots/joe-caione.jpg" class="user-component__avatar user-component__avatar"/>
+                    <img src="./Snapshots/joe-caione.jpg" 
+                    class="user-component__avatar user-component__avatar--xl"/>
                 <div class="user-component__text">
-                <h4 class="user-component__tittle">Daniel</h4>
-                <h6 class="user-component__subtitle">
-                    Please check my KaKao Account info
-                </h6>
+                    <h4 class="user-component__tittle">Daniel</h4>
+                    <h6 class="user-component__subtitle">222-022-2145</h6>
+                    <div class="user-component__alert">!</div>
                 </div>
             </div>
-        <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
+        <div class="user-component__column"></div>
+        <i class="far fa-comment-alt fa-2x"></i>
         </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-calendar"></i>
+                <span>Calendar</span></div>
+            <div class="icon-row__icon">
+                <i class="fas fa-archive"></i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-grin-squint-tears"></i>
+                <span>Emoticons</span></div>
+            <div class="icon-row__icon">
+                <i class="fas fa-fingerprint"></i>
+                <span>Themes</span></div>
+            <div class="icon-row__icon">
+                <i class="far fa-user"></i>
+                <span>Account</span></div>
+            <div class="icon-row__icon">
+                <i class="far fa-comments"></i>
+                <span>Openchat</span>
+            </div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestons__icons"></div>
+                <div class="more-suggestions__icon"></div>
+                    <div class="more-sugesstions__icon-image">
+                        <i class="fas fa-dog fa-2x"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kakao Story</span>
         </div>
     </main>
 

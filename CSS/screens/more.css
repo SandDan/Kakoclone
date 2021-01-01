@@ -1,0 +1,39 @@
+.user-component__text {
+    position: relative;
+}
+
+.user-component__alert {
+    border: tomato 2px solid;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    right: -25px;
+    top: 25px;
+    color: tomato;
+   
+}
+
+.more-screen .icon-row {
+    margin-top: 35px;
+}
+
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.more-suggestions__title {
+    margin-bottom: 30px;
+}
+
+.more-suggestions__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
